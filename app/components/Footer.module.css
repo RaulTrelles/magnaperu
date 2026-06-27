@@ -1,0 +1,110 @@
+.footer {
+  background-color: var(--color-surface-container-lowest);
+  border-top: 1px solid rgba(229, 193, 132, 0.2);
+  padding: var(--spacing-margin-desktop) 0;
+}
+
+.logo {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.description {
+  color: var(--color-on-surface-variant);
+  max-width: 280px;
+  margin-top: 16px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.links h4,
+.contact h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 16px;
+}
+
+.links a {
+  display: block;
+  color: var(--color-on-surface-variant);
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: var(--color-primary);
+}
+
+.contact p {
+  color: var(--color-on-surface-variant);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.contact .address {
+  margin-bottom: 16px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  color: var(--color-on-surface-variant);
+}
+
+.contactItem svg {
+  flex-shrink: 0;
+}
+
+.contactItem span:last-child {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+.social {
+  display: flex;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.social svg {
+  cursor: pointer;
+  transition:
+    transform 0.2s,
+    color 0.3s;
+}
+
+.social svg:hover {
+  transform: scale(1.1);
+  color: var(--color-primary-container);
+}
+
+.copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 32px var(--spacing-margin-desktop);
+  text-align: center;
+  margin-top: var(--spacing-margin-desktop);
+}
+
+.copyright p {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: var(--color-on-surface-variant);
+  opacity: 0.5;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}

@@ -1,0 +1,582 @@
+/* ===== LAYOUT PRINCIPAL ===== */
+.mainGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  min-height: calc(100vh - 80px);
+}
+@media (min-width: 1024px) {
+  .mainGrid {
+    grid-template-columns: 4fr 6fr;
+  }
+}
+
+/* ===== COLUMNA IZQUIERDA ===== */
+.leftSide {
+  position: relative;
+  display: none;
+  overflow: hidden;
+  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAvFwXele-Sv7YFHmoUHG2yattN5vwVMmTgcLPn3yZVTWuy2sO9aYkegO1j0NUnKCvc8JnN5q1HfcoppdDBhH_misKvYDFhGbchj0aN92-MYqOhDbEyuuypYZb-Pl3ZMpeR-IO0TX7yw7yhV8LF7UORPHGF6IaMluCIIR8XeX6Kwm8MhEGOQ_7XfpebQkx0rjv_bl5e-Mz8u5mLVnng8u8CXT4zFAVk6hBqO1aA9rxGAw3OfmyOQ4trTi2IUF-_ynC4Xe111VwhcTnW");
+  background-size: cover;
+  background-position: center;
+}
+.leftSide::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(10, 10, 10, 0.92), transparent);
+  z-index: 1;
+}
+.leftSide::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+@media (min-width: 1024px) {
+  .leftSide {
+    display: block;
+  }
+}
+
+.leftContent {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  right: 2rem;
+  z-index: 2;
+  max-width: 400px;
+}
+
+.leftContent h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 38px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+  line-height: 1.1;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+.leftContent > p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 16px;
+  line-height: 1.5;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+.leftContent .divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--color-primary);
+  margin-bottom: 24px;
+}
+.leftContent .divider::before {
+  content: "";
+  width: 40px;
+  height: 1px;
+  background: var(--color-primary);
+}
+.leftContent .divider span {
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+
+/* ===== BENEFICIOS ===== */
+.benefits h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+.benefits > p {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+.benefitsGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.benefitItem {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.benefitItem span {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.benefitItem h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-primary);
+  margin: 0;
+}
+.benefitItem p {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* ===== COLUMNA DERECHA (formulario) ===== */
+.rightSide {
+  background-color: var(--color-surface-container-lowest);
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .rightSide {
+    padding: var(--spacing-margin-desktop);
+  }
+}
+.rightSide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 256px;
+  height: 256px;
+  background: rgba(229, 193, 132, 0.05);
+  border-radius: 50%;
+  filter: blur(100px);
+  transform: translate(50%, -50%);
+}
+
+.formContainer {
+  max-width: 480px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.formHeader {
+  margin-bottom: 24px;
+}
+.formHeader h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--color-on-surface);
+  margin-bottom: 4px;
+}
+.stepsNote {
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  color: var(--color-on-surface-variant);
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+  opacity: 0.7;
+}
+.stepIndicators {
+  display: flex;
+  gap: 6px;
+}
+.stepIndicators div {
+  flex: 1;
+  height: 3px;
+  background-color: var(--color-surface-variant);
+  transition: background 0.5s;
+}
+.stepIndicators .activeStep {
+  background-color: var(--color-primary);
+}
+
+.step {
+  display: none;
+  opacity: 0;
+  transform: translateX(20px);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.step.visible {
+  display: block;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* ===== CAMPOS CON FONDO MÁS CLARO ===== */
+.field {
+  position: relative;
+  margin-bottom: 22px;
+}
+.field input,
+.field textarea {
+  display: block;
+  width: 100%;
+  padding: 8px 12px 4px 12px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+  color: var(--color-on-surface);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  transition: all 0.3s;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.field input::placeholder,
+.field textarea::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+.field input:focus,
+.field textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  background: rgba(255, 255, 255, 0.09);
+  box-shadow:
+    inset 0 1px 4px rgba(0, 0, 0, 0.4),
+    0 0 0 2px rgba(201, 168, 124, 0.15);
+}
+.field label {
+  position: absolute;
+  left: 12px;
+  top: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-outline);
+  transition: all 0.3s;
+  pointer-events: none;
+  opacity: 0.7;
+}
+.field input:focus ~ label,
+.field input:not(:placeholder-shown) ~ label,
+.field textarea:focus ~ label,
+.field textarea:not(:placeholder-shown) ~ label {
+  transform: translateY(-16px) scale(0.85);
+  color: var(--color-primary);
+  opacity: 1;
+  left: 12px;
+}
+.field textarea {
+  min-height: 60px;
+  resize: vertical;
+  padding-top: 8px;
+}
+.field .hint {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+  font-size: 8px;
+  color: var(--color-outline);
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.field .hint span:last-child {
+  font-style: normal;
+  font-weight: 600;
+  color: rgba(229, 193, 132, 0.6);
+}
+.fieldGroup {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+/* ===== BOTONES ===== */
+.nextButton,
+.backButton,
+.submitButton {
+  padding: 12px 16px;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+}
+.nextButton {
+  width: 100%;
+  justify-content: space-between;
+  background: transparent;
+  border: 1.5px solid var(--color-primary);
+  color: var(--color-primary);
+}
+.nextButton:hover {
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
+}
+.nextButton svg {
+  transition: transform 0.3s;
+}
+.nextButton:hover svg {
+  transform: translateX(6px);
+}
+.backButton {
+  border: 1.5px solid var(--color-outline-variant);
+  color: var(--color-outline);
+  background: transparent;
+  justify-content: center;
+}
+.backButton:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+.buttonGroup {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+.buttonGroup .nextButton {
+  flex: 1;
+  justify-content: center;
+}
+.submitButton {
+  flex: 1;
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
+  justify-content: center;
+}
+.submitButton:hover {
+  background-color: var(--color-primary-container);
+}
+
+/* ===== FOTOS Y CV ===== */
+.photoSection {
+  margin-bottom: 20px;
+}
+.photoSection p {
+  font-family: "Inter", sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  border-bottom: 1px solid rgba(229, 193, 132, 0.2);
+  padding-bottom: 4px;
+  margin-bottom: 12px;
+}
+.photoGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+.photoSlot {
+  position: relative;
+  border: 1.5px solid rgba(229, 193, 132, 0.4);
+  aspect-ratio: 3/4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-surface-container-low);
+  transition: border-color 0.3s;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 6px;
+}
+.photoSlot:hover {
+  border-color: var(--color-primary);
+}
+.photoSlot input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+.photoSlot span {
+  font-size: 24px;
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+.photoSlot:hover span {
+  opacity: 1;
+}
+.photoSlot p {
+  font-family: "Inter", sans-serif;
+  font-size: 7px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-outline);
+  text-align: center;
+  margin-top: 4px;
+}
+.cvSection {
+  margin-bottom: 20px;
+}
+.cvSection p {
+  font-family: "Inter", sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  border-bottom: 1px solid rgba(229, 193, 132, 0.2);
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+}
+.cvDrop {
+  position: relative;
+  border: 1.5px dashed rgba(229, 193, 132, 0.4);
+  padding: 16px;
+  text-align: center;
+  background-color: var(--color-surface-container-low);
+  transition: border-color 0.3s;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.cvDrop:hover {
+  border-color: var(--color-primary);
+}
+.cvDrop input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.cvDrop span {
+  font-size: 32px;
+  opacity: 0.8;
+}
+.cvDrop:hover span {
+  opacity: 1;
+}
+.cvDrop div span {
+  display: inline-block;
+  padding: 8px 24px;
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  transition: transform 0.3s;
+  border-radius: 4px;
+}
+.cvDrop:hover div span {
+  transform: scale(1.05);
+}
+.cvDrop div p {
+  font-family: "Inter", sans-serif;
+  font-size: 8px;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-outline);
+  margin-top: 8px;
+}
+
+/* ===== TÉRMINOS ===== */
+.terms {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+.terms input[type="checkbox"] {
+  margin-top: 2px;
+  width: 14px;
+  height: 14px;
+  background: transparent;
+  border: 1.5px solid rgba(229, 193, 132, 0.5);
+  accent-color: var(--color-primary);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.terms label {
+  font-family: "Inter", sans-serif;
+  font-size: 9px;
+  color: var(--color-on-surface-variant);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 1.4;
+}
+.terms label a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* ===== PÁGINA DE ÉXITO ===== */
+.successContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 80px);
+  text-align: center;
+  padding: 32px;
+}
+.successContainer .successIcon {
+  font-size: 56px;
+  margin-bottom: 24px;
+  animation: bounce 2s infinite;
+}
+.successContainer h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 12px;
+}
+.successContainer p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: var(--color-on-surface-variant);
+  max-width: 400px;
+  margin-bottom: 32px;
+}
+.successContainer button {
+  background: transparent;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  border-bottom: 1.5px solid var(--color-primary);
+  padding-bottom: 4px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+.successContainer button:hover {
+  opacity: 0.7;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
