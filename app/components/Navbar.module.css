@@ -1,6 +1,6 @@
 /* Navbar principal */
 .navbar {
-  background-color: var(--background);
+  background-color: var(--color-surface);
   border-bottom: 1px solid rgba(201, 168, 124, 0.2);
   padding: 1rem var(--spacing-gutter);
   position: fixed;

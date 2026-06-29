@@ -10,7 +10,7 @@ export default function Home() {
       <section className={styles.hero}>
         <div className={styles.heroBg} />
         <div className={styles.heroContent}>
-          <span className={styles.heroBadge}>MAGNA PERU S.A.C</span>
+          {/* <span className={styles.heroBadge}>MAGNA PERU S.A.C</span> */}
           <h1 className={styles.heroTitle}>
             Presencia que impacta.
             <br />
@@ -391,13 +391,13 @@ export default function Home() {
             <div className={styles.divider} />
             <p>DIRECTOR DE MARKETING, RETAIL PREMIUM</p>
           </div>
-          <div className={styles.brandLogos}>
+          {/*           <div className={styles.brandLogos}>
             <span>L&apos;OREAL</span>
             <span>MERCEDES BENZ</span>
             <span>SAMSUNG</span>
             <span>SAGA FALABELLA</span>
             <span>INTERBANK</span>
-          </div>
+          </div> */}
         </div>
       </section>
 

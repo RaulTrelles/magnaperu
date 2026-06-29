@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--color-surface-container-lowest);
+  background-color: #0d0d0d; /*var(--color-surface-container-lowest); */
   border-top: 1px solid rgba(229, 193, 132, 0.2);
   padding: var(--spacing-margin-desktop) 0;
 }

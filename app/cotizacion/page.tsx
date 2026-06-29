@@ -12,6 +12,7 @@ export default function Cotizacion() {
       style={{
         paddingTop: "calc(80px + 2rem)", // ← ajustado para que no quede debajo del menú
         paddingBottom: "var(--spacing-margin-desktop)",
+        // backgroundColor: "#1e1e1e",
       }}
     >
       <header className={styles.header}>
