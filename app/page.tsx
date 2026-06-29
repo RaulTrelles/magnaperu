@@ -68,7 +68,7 @@ export default function Home() {
             {/* Card 1 */}
             <div className={styles.staffCard}>
               <Image
-                src="https://lh3.googleusercontent.com/aida/AP1WRLvZZzPjSCNcNwJpKjT-xaBWnpuqMYR8LxnLezAKVrv7ybgS9yBxeQRgVg0_wIpEwySD1oQ82tc9IFjTC5trCUuBKf4KbNGE4xh42heWwFIDVgqGFR3HN6G2Ynf6-oe3y1YAodtsNJOAg2Bjm4EVbkAhp-OFrYnLNTzB90-cFjzKBRXWEK-sNW9gkkoLrM3GkScju17tQp7kWcAdCoQ3EcOXeZ--fE5GF_VVn72y9srqEh_iURxxCkjrA1Hs"
+                src="/Staff/Alessandra-Valery-v2.png" // ← ruta local
                 alt="Alessandra Valery"
                 fill
                 className={styles.staffImage}
@@ -89,7 +89,7 @@ export default function Home() {
             {/* Card 2 */}
             <div className={`${styles.staffCard} ${styles.mt12}`}>
               <Image
-                src="https://lh3.googleusercontent.com/aida/AP1WRLv7wtuQQzxsVBDi_tHctpH7Nh_-xOPA3Qvk_VtA6I_5giRYkTC69Jyc9SYdtNkj4OI7W4aQdbB-dArucEFBhmCoIrjKu89_vyJ4KROxGvoXmsCq8o1Z9vYdl2xbbBFiCDJm5gSeP7NBsdxUZNkM-Kc44RqGu4n1Mx76hdQOuKszdeGzzddoDkSibzJZcmAS61x63_tdXP8p2xL_kpsT8chl0E1rxgdgvuPu3GXpeuCiu6ZZO5pFiN-YsJlR"
+                src="/Staff/Sebastian-Ruiz-v3.png" // ← ruta local
                 alt="Sebastian Ruiz"
                 fill
                 className={styles.staffImage}
@@ -110,7 +110,7 @@ export default function Home() {
             {/* Card 3 */}
             <div className={styles.staffCard}>
               <Image
-                src="https://lh3.googleusercontent.com/aida/AP1WRLuFaCNYAvwXziWAPG9XYIY03YK4lJdM2Xe9zJne0FHUKH9RvKQfb5FVO6hiYOwPsGKW5-xmd4vWya-Z0CO25sHhsbONzi88ADew7fSqnPruBv4BGvRvGDdN_8X-smsF_umG5_nvwNK9yYa6CTWSYz0mUtOuyF48YwwEFWNteOYqdsY-DraHvVCFkmQbgVmEcadX6S2xXYRegi3qW47ySf3FUztJpjQC7CT9xCe7Vw7N9Zm7vE5y1nOtzwOt"
+                src="/Staff/Camila-Santoro-v2.png" // ← ruta local
                 alt="Camila Santoro"
                 fill
                 className={styles.staffImage}
@@ -131,7 +131,7 @@ export default function Home() {
             {/* Card 4 */}
             <div className={styles.staffCard}>
               <Image
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-oiJBMZ3qXjYaoX_7jP9n-3ozb8E3FF81y93DHUaC1hD04BfkTLgbFBt-yoq_Bv4koCrkQ75AL5osx6laSCf9jbb6eH0yBIS7iKyikGu1qt5QfrNmOqwmqIcrEH2JGcNfE_g3YXD-JLt1ZVlRJrG6YFQIQDbxDMf5ayfKaZhUDVe_zyGiCXVJKHi7lvI5c0X6aVYhzscMhTz43qSEHd1byhsFY2amGxJStt3B0f9hptlB3cqvE_0TOVdZ4Yk8mRC0HxdTcSupZdG4"
+                src="/Staff/Santiago Mendez v2.png" // ← ruta local
                 alt="Santiago Mendez"
                 fill
                 className={styles.staffImage}
@@ -152,7 +152,7 @@ export default function Home() {
             {/* Card 5 */}
             <div className={`${styles.staffCard} ${styles.mt12}`}>
               <Image
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqel3fajgS8xXS_yLmJlpFfeJp2uFQPF6xEB_GccpeJ-TbqnvzWL5_WDNtueyznliorVjyq7Yvq31OA9V0XSiAXrHdldhjhK1I15TdphAU0u3RU6bC_UcMa10isPZLDQTnUr6woSpCZpVBS1Cx9QYJtZxOPJ5WKTBMU0LEWEr6NPZZPUxl3E7MmGROe37cNw8zL8bdOIUPBxKsv67M2LfhMG2osTzmoUKBf2_sJLdV5ywgBQKc0P7zlwe0Xz3IgOeH9zQ7O0yR36rh"
+                src="/Staff/Daniel Ortega.png" // ← ruta local
                 alt="Daniel Ortega"
                 fill
                 className={styles.staffImage}
@@ -173,7 +173,7 @@ export default function Home() {
             {/* Card 6 */}
             <div className={styles.staffCard}>
               <Image
-                src="https://lh3.googleusercontent.com/aida/AP1WRLvjYSA6kAOiEFUCuSdGQJJX3cV_D4EUiMhk55q_HV5Hytf-okvs31PQ_rC1bPD3_4jvMf3-PsVs7Ct7OAzVFlAw-aKRjRZTuVVzM6Yfs-BnR10eg7Flgj3ROromuPRPwOBPstieIkIFl2yGNRcI1Vj9gNNYwj63QO1nI7zKoUrLVq6MDMmZOUuDpLwH_AaMeHmGaGKD7yB8_4JB3CXF4fIx3YaQ6dDpIP7PR2w3sMyDHsnrF7snecbOllQb"
+                src="/Staff/Elena Petrov.png" // ← ruta local
                 alt="Elena Petrov"
                 fill
                 className={styles.staffImage}
