@@ -72,7 +72,7 @@ export default function Cotizacion() {
           <div className={styles.mapContainer}>
             <div className={styles.mapImage}>
               <Image
-                src="https://lh3.googleusercontent.com/aida/AP1WRLstttnC1lqr4_c1PM1WmtUBU9jRUKVivkTWCN8oAkv1HzfJzMwhms816qeMCNN_TYKrrtso5qEX54NIPNUoKqEtd9Xb5e3yV_V_cnqN_YC472bQsN0fhtG-fMPU7AehgnCPy3wYFYqnmDt-PkofJAOHwTh-SWaSG5RzjLB3OT_vKOFxZLCuuiC8lwy0qNmEJaM2LSKEtNcPJYrq5tMEbnr-xjJDQrGP2rBtWm8SmJhlcGFOfPc5BM6hJn4p"
+                src="/Corporativo/sanisidro.png"
                 alt="Mapa de San Isidro, Lima"
                 fill
                 className={styles.mapImageContent}
