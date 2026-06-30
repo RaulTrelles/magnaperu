@@ -15,7 +15,8 @@
   position: relative;
   display: none;
   overflow: hidden;
-  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAvFwXele-Sv7YFHmoUHG2yattN5vwVMmTgcLPn3yZVTWuy2sO9aYkegO1j0NUnKCvc8JnN5q1HfcoppdDBhH_misKvYDFhGbchj0aN92-MYqOhDbEyuuypYZb-Pl3ZMpeR-IO0TX7yw7yhV8LF7UORPHGF6IaMluCIIR8XeX6Kwm8MhEGOQ_7XfpebQkx0rjv_bl5e-Mz8u5mLVnng8u8CXT4zFAVk6hBqO1aA9rxGAw3OfmyOQ4trTi2IUF-_ynC4Xe111VwhcTnW");
+  background-image: url("../../public/Corporativo/reclutamiento.png");
+  margin-top: 60px;
   background-size: cover;
   background-position: center;
 }

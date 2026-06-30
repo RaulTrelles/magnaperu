@@ -406,8 +406,9 @@
 }
 .staffCTAImage {
   aspect-ratio: 16/9;
-  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD4NiNffAVHoEPP8WICy_Edyhn6D8KpGI14pokD1laOjQ75bGmnQk8LdfE8PbHfle99fUnNb2Aw5pVT1smcr4RSn2DVf7C1MhJpPj-HYRZEjMRcRqZM5XSl2uowoJ1DIAGYHdExKBJc-qslbENDRvRO5QK1uvfa0o3QUzgDoHscdMWopwsI9kO7SzCy_0zTqSLo-KrC_ItM5wM83XyHSWaQHouhWc1ERVcPc7OjtBJtkd_uGpkc_GxduKm4qKAhla1RIvOyk80rLe1B");
-  background-size: cover;
+  background-image: url("/Corporativo/Quienes-Somos.png");
+  background-size: contain; /* <-- Cambiar de cover a contain */
+  background-repeat: no-repeat; /* Evita que se repita si sobra espacio */
   background-position: center;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -615,10 +616,10 @@
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
 .aboutImage1 {
-  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCnvrG2J1AjlEH2odBFkA1LbRY_yQ9lFpWNjZnJncKGjzFpKeWgWTcmhHgq6MNNyb44tm0IoFpyQg5nAN79JCDR-DtDuVTJyxNvGln8I3e4f3QiuvUvzqtd-YIwkSqSDq_tmHW8uafRowuN3vxryGE0QcV4qvwI8YjttHn06SextTx1faU9379b3HSCC3xzE3s4wvTiDnIYcy8Tn07MtUy2oOw14wHjyMyjXg-uDderVS4cQiJMFfUiL0lBUMlpMEJcGmEO-uG9W6M7");
+  background-image: url("/Corporativo/Excelencia-2.png");
 }
 .aboutImage2 {
-  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDMch9z66CjT_jHz_3UmhlpGpHk8RAn0rIOT-q9wDcIxD2nIEknK5FwyGBRnTRitNXt62NPo_69ZZdef6YG_H5H5KYjaOG5btxihhWDS-kXUy-bPgAURn70Erzf4GZqZZB4NHH-d2c3axJYnDDXndnKliM0PzjtQ-xgL0GbwU7gNCFtC65fwZ4KJSu9Xjy-yDXvEIekDloo3sh5sAQIA8Lo6tUEJux2QVL3E7NifXKKJr0VysmWfbeMjjePY69MDIh8-cIAyiIwLDVB");
+  background-image: url("/Corporativo/Excelencia-1.png");
   margin-top: 48px;
 }
 @media (max-width: 1024px) {

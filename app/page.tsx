@@ -216,12 +216,12 @@ export default function Home() {
           </div>
           <div className={styles.servicesGrid}>
             <div className={styles.serviceCard}>
-              <div
-                className={styles.serviceImage}
-                style={{
-                  backgroundImage:
-                    "url(https://lh3.googleusercontent.com/aida-public/AB6AXuAly2XPCYsGVvoF7-O0yNnafgvBh0zj6R1xbU5GCgyWge7QrT_EAQLo0xWgivJBQLKTx026UMOS7UQy2EwD8RMDOnqoTZG6ATezdAP781nCKFZH1Kd7CbJcLCyu0Sa_dyUpr_y2Q6dehQ7KNEiOdME1EolxIQy9GM0WqMgN-wBbfsCEDdjs5aaXN4a7pyVE_2jtmZBXajL1W_m8H2uEtg1Nxl6ZZquJjj9mb25Ff1gA11cfzr-N1ImKCIYVbTT-zqlfyQ8MdjqRl1I5)",
-                }}
+              <Image
+                src="/Servicio/Anfitrionas_Corporativas.png" // ← ruta local
+                alt="Daniel Ortega"
+                fill
+                className={styles.staffImage}
+                sizes="(max-width: 768px) 100vw, 33vw"
               />
               <div className={styles.serviceContent}>
                 <h3>Anfitrionas Corporativas</h3>
@@ -232,12 +232,12 @@ export default function Home() {
               </div>
             </div>
             <div className={styles.serviceCard}>
-              <div
-                className={styles.serviceImage}
-                style={{
-                  backgroundImage:
-                    "url(https://lh3.googleusercontent.com/aida-public/AB6AXuBq6gVdHs12zNvteYrVaZPVh6vRfWWsBJZlxbv4DJp2H_2iNivOd8_F4DgDaWeYjsKBCUXmCJ-IJZ_sq3x43KioGK7w_d5p3pQiq78CoqGXxh5ytUr5tmOamCugumEkILqXgVEUOeQ7AoFf1SGBLHi9MxyECCSyCN5AIbo5LgY0Un3ZUYiJXET0Oj-M-7j4SFy-raxT3H-mbyXCFW8LmZU1PQVns-ndHo2KfgPp98CNFMgDwGKd78ohlbx39_CPTQ56xFWrqc5UzGeS)",
-                }}
+              <Image
+                src="/Servicio/Activaciones-BTL-V2.png" // ← ruta local
+                alt="Activaciones BTL"
+                fill
+                className={styles.staffImage}
+                sizes="(max-width: 768px) 100vw, 33vw"
               />
               <div className={styles.serviceContent}>
                 <h3>Activaciones BTL</h3>
@@ -248,12 +248,12 @@ export default function Home() {
               </div>
             </div>
             <div className={styles.serviceCard}>
-              <div
-                className={styles.serviceImage}
-                style={{
-                  backgroundImage:
-                    "url(https://lh3.googleusercontent.com/aida-public/AB6AXuDFtVhTqWWBMynEAAHmrXoNtOpMYmv4H9hqG0D-jcwUp9D_zocYiHZ8PUH1gq7Icn57WS8fgjNF1RHna6u-6O4FrtOqU97T1svIUdugd7Meb1-G_1mwb0gCZTggTEfbtNK0PsQjqrUexDOk43p-bl2NUb2PnAdiT2eZwRzLzM4rZTPTbTXWVWVJhU1U9eggEVq96PVNFMH3KktzPi9tNm5Qfq7ZTHX6z6Co1fA9SD1pzIN4M15u83NUnwRbzdwDAGwJWxYDVbS5KJLI)",
-                }}
+              <Image
+                src="/Servicio/Lanzamientos-de-Marca.png" // ← ruta local
+                alt="Lanzamiento de Marca"
+                fill
+                className={styles.staffImage}
+                sizes="(max-width: 768px) 100vw, 33vw"
               />
               <div className={styles.serviceContent}>
                 <h3>Lanzamientos de Marca</h3>
@@ -264,12 +264,12 @@ export default function Home() {
               </div>
             </div>
             <div className={styles.serviceCard}>
-              <div
-                className={styles.serviceImage}
-                style={{
-                  backgroundImage:
-                    "url(https://lh3.googleusercontent.com/aida-public/AB6AXuA90awX35m1sOZa_mFN0-XeSNh0xRGc6gHf_PB5H16PQ5qBmE3stZsynkoPcoqYag_S-cV3zWRIm80eMKmt9mZv2KHoukzj_gLHXPBJoGfhArttMKNLP-MLLcGKRgtf7M4yJLnZASo42hf7awa1FMBtZ0oAiiFM2eU8hk5FhRCjjETE0iUbj--s6gDkCgEaIJqISgSQgTDT7ieOZ4iJsDbfD-Puf1p3wcfJW3swCizFVY_iOXrgcjtpRBhTC5ve-OVAPJl7e-zpU6c6)",
-                }}
+              <Image
+                src="/Servicio/Impulsadoras.png" // ← ruta local
+                alt="Impulsadoras"
+                fill
+                className={styles.staffImage}
+                sizes="(max-width: 768px) 100vw, 33vw"
               />
               <div className={styles.serviceContent}>
                 <h3>Impulsadoras</h3>
@@ -280,12 +280,12 @@ export default function Home() {
               </div>
             </div>
             <div className={styles.serviceCard}>
-              <div
-                className={styles.serviceImage}
-                style={{
-                  backgroundImage:
-                    "url(https://lh3.googleusercontent.com/aida-public/AB6AXuBHMMKQoArTcfw7Xmz9uxM7VAFhMYtjqy-zGNQsGjuf8bzAk1F702Z3FRuI6ocvc89KqDnp1i64xrDYROwTCwpyFhju9I6gea-4V9g_x9XarFwiLrnRnUMLNATkW5fcLBGhV8YovdLIY72HXAJrorWd9RxMQhT5g1Wdh5qM7r6pbgUSbHDIR1A40PsM6pZGUcmdiLQR7EGvbk3Glls45jbcITDVBgHUo8v0DSN2AKdl8YaaHdm-Ghqoy8zedjD21xSds3CZRn40DjBP)",
-                }}
+              <Image
+                src="/Servicio/modelos-v2.png" // ← ruta local
+                alt="Modelos"
+                fill
+                className={styles.staffImage}
+                sizes="(max-width: 768px) 100vw, 33vw"
               />
               <div className={styles.serviceContent}>
                 <h3>Modelos</h3>
@@ -296,12 +296,12 @@ export default function Home() {
               </div>
             </div>
             <div className={styles.serviceCard}>
-              <div
-                className={styles.serviceImage}
-                style={{
-                  backgroundImage:
-                    "url(https://lh3.googleusercontent.com/aida-public/AB6AXuCrjf39J75wkl8qqTzWJjDIgnkWE11hI44enwCiMB0gHi_ssfEK5eTUXrIK9KXvgsj6rExqszUQ9AyjuRRUm-08pZFTIBC20bCnEoGOoJnw3UsQApW0YRvm9omqIoaxVoRuPZJ5AzBl9sCFD_TmQpdWglWHwuclZ40Je_g-ix60_spKdChW3BLg0tq-lC_TAFsoTjpwGHdhPoIvDvf65YgOuN4QzGdLqPVZSH7wyYB1EOCY8OAQG4TTrPaWZRBPwsyrFKfNZE1IoNeW)",
-                }}
+              <Image
+                src="/Servicio/Promotoras.png" // ← ruta local
+                alt="Promotoras"
+                fill
+                className={styles.staffImage}
+                sizes="(max-width: 768px) 100vw, 33vw"
               />
               <div className={styles.serviceContent}>
                 <h3>Promotoras</h3>
@@ -312,12 +312,12 @@ export default function Home() {
               </div>
             </div>
             <div className={styles.serviceCard}>
-              <div
-                className={styles.serviceImage}
-                style={{
-                  backgroundImage:
-                    "url(https://lh3.googleusercontent.com/aida-public/AB6AXuCYTgKMIQ3kb9_fN1sNi4WCBffAug3x0Hpb3gmIauEOarQZF1P3jaDmGGlYcuGiUY776Oz2FwJFq58QrPrP4szWk-3TV98ywooQipfbeNcFtPa8qMMmrLv4JujGNEgwDjEx3RODSPVJ3mYFHuDlJIwq1e3_IwXUnkbGjPEpkjyeAoVsvA3aGMtfoklQOXwdz0OEN782SF8pWcmzQZQwlmT-IIH24Ck4qGp6EhM3DCj1A5LqXZqb07lCBdbZ4n9E-Rz0x_npHRXxTt5A)",
-                }}
+              <Image
+                src="/Servicio/Ferias-congresos.png" // ← ruta local
+                alt="Ferias y Congresos"
+                fill
+                className={styles.staffImage}
+                sizes="(max-width: 768px) 100vw, 33vw"
               />
               <div className={styles.serviceContent}>
                 <h3>Ferias y Congresos</h3>
@@ -328,12 +328,12 @@ export default function Home() {
               </div>
             </div>
             <div className={styles.serviceCard}>
-              <div
-                className={styles.serviceImage}
-                style={{
-                  backgroundImage:
-                    "url(https://lh3.googleusercontent.com/aida-public/AB6AXuAtmV8PTyGu94JufiXFtWOxFFneO6epvj2xOEIytc0hi_-o6SyOoQ0ChLitOV3LduuBy68lLequzoVR06i8vEQcO3ZBnHlR82HQKeghv99xGDStN2z9AdbfBmxzu28-zm-gws5DkVzi-unn3jrE2KzU_Zifw1b0ckLjsSGHprjrramFKBiNSPstPJrfnPeZ3LENAD0dAz0h-fJsZAHtkf47TCrI0e5Qaf-n5wa1p4tTvaJPhJIZnjuoz8Q7mD2cXX7KnyotQQmmucaZ)",
-                }}
+              <Image
+                src="/Servicio/Recepcionistas.png" // ← ruta local
+                alt="Recepcionistas"
+                fill
+                className={styles.staffImage}
+                sizes="(max-width: 768px) 100vw, 33vw"
               />
               <div className={styles.serviceContent}>
                 <h3>Recepcionistas</h3>
@@ -344,12 +344,12 @@ export default function Home() {
               </div>
             </div>
             <div className={styles.serviceCard}>
-              <div
-                className={styles.serviceImage}
-                style={{
-                  backgroundImage:
-                    "url(https://lh3.googleusercontent.com/aida-public/AB6AXuDJfdyXbLNbcur89-qqp1adns5dcqcNZp6XgqyH_2_fYOfQ53CUrnytx6vKZ45fNxEkV8uZU_wAcq3S3eWZArba3xWoGJZpre1Vr-mxxT1e1Zv_gSN8N1rDXZBjUHmVRrY2EbWaA7BuIuVwDMEscpyCvL6WyrdZjqn0IlGlId-9VNQAM_zOYcyfcJP6YQ5E69UZ7QI2PBwEiq4WXYkFklvQFrkaI0x9ESarA3tamj6wcbfKRwq1o_1Knjc6DsutnHAFI1lsaVNSCdTy)",
-                }}
+              <Image
+                src="/Servicio/Imagen-Marca.png" // ← ruta local
+                alt="Imagen de Marca"
+                fill
+                className={styles.staffImage}
+                sizes="(max-width: 768px) 100vw, 33vw"
               />
               <div className={styles.serviceContent}>
                 <h3>Imagen de Marca</h3>
@@ -360,12 +360,12 @@ export default function Home() {
               </div>
             </div>
             <div className={styles.serviceCard}>
-              <div
-                className={styles.serviceImage}
-                style={{
-                  backgroundImage:
-                    "url(https://lh3.googleusercontent.com/aida-public/AB6AXuDR90uLjfL0QxlBEWnYiBUeMt7rp6vP1VWUHgeURUpJOvdRK0qEk2N_Rp_TVl4n83Crgp_khi9eunSEGOJh93pCzByYH4Imvcxw7M1nxYM1wkEHwCY2PBekZl-sYO3aSk2kRJNKr69bRFLTJjsVxhKNgM1GZEgjr6ROaJb77oNEki6Cw2qzR52TBAl_YU7R279bFYcu-50YQneMpYYtaE0Gh-F55yUAm9Nd7KnbaTjjFITjHp-B1j7tdtiDARhYPh6nX3JCwmi9TEY-)",
-                }}
+              <Image
+                src="/Servicio/Campañas-Públicitarias.png" // ← ruta local
+                alt="Campañas Publicitarias"
+                fill
+                className={styles.staffImage}
+                sizes="(max-width: 768px) 100vw, 33vw"
               />
               <div className={styles.serviceContent}>
                 <h3>Campañas Publicitarias</h3>
